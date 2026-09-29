@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Instalação e manutenção de ar-condicionado">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a5bb8"/>
+      <stop offset="1" stop-color="#12285a"/>
+    </linearGradient>
+    <linearGradient id="unit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8eef7"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <!-- flocos de neve -->
+  <g fill="#ffffff" opacity="0.18">
+    <circle cx="90" cy="70" r="6"/><circle cx="150" cy="130" r="4"/><circle cx="60" cy="180" r="5"/>
+    <circle cx="560" cy="300" r="6"/><circle cx="500" cy="360" r="4"/><circle cx="590" cy="230" r="5"/>
+  </g>
+  <!-- unidade split -->
+  <g>
+    <rect x="120" y="120" width="400" height="120" rx="22" fill="url(#unit)" stroke="#c7d3e6" stroke-width="2"/>
+    <rect x="120" y="196" width="400" height="30" rx="0" fill="#dbe4f1"/>
+    <rect x="140" y="205" width="360" height="10" rx="5" fill="#b9c6dc"/>
+    <!-- vents -->
+    <g stroke="#c7d3e6" stroke-width="3">
+      <line x1="150" y1="150" x2="490" y2="150"/>
+      <line x1="150" y1="166" x2="490" y2="166"/>
+      <line x1="150" y1="182" x2="490" y2="182"/>
+    </g>
+    <!-- led -->
+    <circle cx="470" cy="215" r="5" fill="#f7b500"/>
+  </g>
+  <!-- ar frio saindo -->
+  <g stroke="#bcd3ff" stroke-width="5" stroke-linecap="round" opacity="0.75" fill="none">
+    <path d="M200 260 q-14 26 0 52"/>
+    <path d="M320 260 q-14 26 0 52"/>
+    <path d="M440 260 q-14 26 0 52"/>
+  </g>
+  <!-- floco central -->
+  <g transform="translate(320,335)" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <line x1="0" y1="-26" x2="0" y2="26"/>
+    <line x1="-26" y1="0" x2="26" y2="0"/>
+    <line x1="-18" y1="-18" x2="18" y2="18"/>
+    <line x1="-18" y1="18" x2="18" y2="-18"/>
+  </g>
+</svg>
